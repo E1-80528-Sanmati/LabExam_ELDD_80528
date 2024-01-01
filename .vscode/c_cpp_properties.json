@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/lib/gcc/x86_64-linux-gnu/11/include",
+                "/home/sanmati/Documents/files_c/CW/ELDD/vscode-linux-intellisense/linux-headers/include",
+                "/home/sanmati/Documents/files_c/CW/ELDD/vscode-linux-intellisense/linux-headers/x86/include/uapi"
+            ],
+            "defines": [
+                "__GNUC__",
+                "__KERNEL__",
+                "KBUILD_MODNAME=\"sunbeam\""
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu99",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
